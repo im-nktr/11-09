@@ -1,0 +1,24 @@
+/*colors root*/
+
+
+:root {
+    --very-dark-green: #25332F;
+    --dark-green: #34534B;
+    --middle-green: #48776B;
+    --green: #5B9A8A;
+    --light-green: #98DCCB;
+
+    --opal:#91B7AD;
+    --shadow:#AB9E9F;
+    --almond:#FFE8D4;
+
+    --light-rose: #FDC6D0;
+    --old-rose: #C58591;
+    --pink: #DE6C83;
+    --rose: #B9566A;
+    --very-dark-rose: #853242;
+
+    --white: #FFF;
+    --gray: #666;
+    --black: #000;
+}

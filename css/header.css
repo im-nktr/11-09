@@ -1,0 +1,57 @@
+/*header stylesheet*/
+
+
+.mp3 p{
+    font-family: 'Reenie Beanie';
+    font-size: 1.5rem;
+    color: var(--almond);
+    margin-left: 25rem;
+}
+
+
+header {
+    display: inline-block;
+    padding: 0.1rem;
+}
+header img {
+    width: 10rem;
+    float: right;
+}
+
+
+.indice {
+    padding-block: 1rem;
+    padding-left: 2rem;
+    margin-left: 19rem;
+    background: url(https://i.pinimg.com/474x/bc/c4/91/bcc4913c7432b616a73742e3bee641f2.jpg);
+    border-radius: 2rem;
+    width: 35rem;
+}
+.indice h2 {
+    color: var(--black);
+}
+.indice ul {
+    color: var(--dark-green);
+}
+.indice p {
+    font-family: 'Reenie Beanie';
+    font-size: 1.5rem;
+    color: var(--opal);
+}
+.indice a {
+    color: var(--dark-green);
+}
+.indice div :hover {
+    color: var(--old-rose);
+}
+.indice h2 {
+    display: flex;
+    justify-content: left;
+}
+
+
+audio {
+    margin-top: 1.5rem;
+    margin-left: 27rem;
+    width: 20rem;
+}

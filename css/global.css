@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+button {
+    margin-top: 1rem;
+    padding-block: 0.5rem;
+    padding-inline: 0;
+    background: var(--almond);
+    border: transparent;
+    border-radius: 0.5rem;
+    -moz-box-shadow: 0.125rem 0.313rem var(--black);
+    -webkit-box-shadow: 0.188rem 0.188rem var(--black);
+}
+button :hover {
+    color: var(--white);
+    background: var(--shadow);
+}
+button a {
+    color: var(--gray);
+    font-family: 'Amatic SC';
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+
+body {
+    background: linear-gradient(var(--very-dark-green), var(--dark-green), var(--middle-green), var(--rose), var(--rose), var(--very-dark-rose), var(--very-dark-green), var(--dark-green), var(--middle-green), var(--rose), var(--rose), var(--very-dark-rose), var(--very-dark-green), var(--dark-green), var(--middle-green), var(--rose), var(--rose), var(--very-dark-rose));
+    margin-inline: 2.5rem;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    font-size: 7rem;
+    font-family: 'Birthstone Bounce';
+    font-weight: 100;
+    margin-left: 15rem;
+    text-align: center;
+    color: var(--almond);
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Amatic SC';
+    margin-bottom: 1rem;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Reenie Beanie';
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    color: var(--almond);
+}
+
+a {
+    font-family: 'Cutive Mono';
+    font-size: 1.5rem;
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+}
+
+hr {
+    color: var(--black);
+    border: solid;
+    border-color: var(--black);
+
+    margin-top: 2.5rem;
+}
+
+img {
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,242 @@
+/*main stylesheet*/
+
+
+.carta-de-amor p {
+    font-size: 2.5rem;
+    font-family: 'WindSong';
+    color: var(--almond);
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    text-indent: 4rem;
+}
+
+
+.musicas p {
+    font-family: 'Reenie Beanie';
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.musicas ul {
+    color: var(--light-rose);
+}
+.musicas div {
+    display:flex;
+    justify-content: center;
+}
+.musicas div a {
+    color: var(--light-rose);
+}
+.musicas div :hover {
+    color: var(--old-rose);
+}
+
+.fotos p {
+    font-family: 'Reenie Beanie';
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.fotos div img {
+    width: 22rem;
+    margin: 1rem;
+    display: inline-block;
+    border-radius: 0rem;
+    border-top: 0.625rem solid var(--white);
+    border-right: 0.625rem solid var(--white);
+    border-bottom: 2.5rem solid var(--white);
+    border-left: 0.625rem solid var(--white);
+    cursor: pointer;
+    -moz-box-shadow: 0.125rem 0.313rem var(--black);
+    -webkit-box-shadow: 0.188rem 0.188rem var(--black);
+    position: relative;  
+    -webkit-transition:linear 0.25s;
+    -moz-transition:linear 0.25s;
+
+    background:url("wood.jpg");
+    background-repeat: inherit;
+}
+.img2 {
+    -webkit-transform:rotate(2deg);
+    -moz-transform:rotate(2deg);    
+}
+.img1 {
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);    
+}
+.img2:hover {
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);             
+}
+.img1:hover {
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+}
+
+
+.filmes p {
+    font-family: 'Reenie Beanie';
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.filmes div {
+    margin-left: 7rem;
+}
+.filmes div img {
+    width: 20rem;
+    border: 0.1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+
+.lm p {
+    font-family: 'Reenie Beanie';
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.lm div {
+    margin-left: 4rem;
+}
+.lm div img {
+    width: 16rem;
+    border-radius: 0rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+.lv p {
+    font-family: 'Reenie Beanie';
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.lv div {
+    margin-left: 4rem;
+}
+.lv div img {
+    width: 16rem;
+    border-radius: 0rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+
+.fazer p {
+    font-family: 'Reenie Beanie';
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.fazer div p {
+    font-family: 'Reenie Beanie';
+    font-size: 3rem;
+    color: var(--light-green);
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: inline-block;
+}
+.fazer div {
+    margin-left: 4rem;
+}
+.fazer div img {
+    width: 15rem;
+    border: 0.1rem;
+    border-radius: 0;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+
+.jogos p {
+    font-family: 'Reenie Beanie';
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.jogos div {
+    margin-left: 7rem;
+}
+.jogos div img {
+    width: 20rem;
+    border: 0.1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+
+.viagem p {
+    font-family: 'Reenie Beanie';
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.viagem div {
+    width: 50rem;
+    height: 0;
+    padding-block: 15.57rem;
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+    margin-top: 1.6em;
+    margin-bottom: 0.9em;
+    overflow: hidden;
+    border-radius: 25px;
+    will-change: transform;
+    margin-left: 12rem;
+}
+.viagem div iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    border: none; 
+    padding: 0;
+    margin: 0;
+}
+
+
+.historia p {
+    font-family: 'Reenie Beanie';
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.historia a {
+    display: flex;
+    justify-content: center;
+}
+.historia div :hover {
+    color: var(--shadow);
+
+}

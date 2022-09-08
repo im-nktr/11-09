@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap'); /*carta*/
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&display=swap'); /*h1*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap'); /*h2 e buttons*/
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap'); /*p e h3*/
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap'); /*a*/
+
+
+/*stylesheets*/
+@import './css/colors.css';
+@import './css/global.css';
+@import'./css/header.css';
+@import './css/img.css';
+@import './css/main.css';
